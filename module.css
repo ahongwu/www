@@ -1,0 +1,574 @@
+/*products*/
+@keyframes warn {  
+    0% {  
+        transform: scale(0);  
+        opacity: 0.0;  
+    }  
+    25% {  
+        transform: scale(0);  
+        opacity: 0.1;  
+    }  
+    50% {  
+        transform: scale(0.1);  
+        opacity: 0.3;  
+    }  
+    75% {  
+        transform: scale(0.5);  
+        opacity: 0.5;  
+    }  
+    100% {  
+        transform: scale(1);  
+        opacity: 0.0;  
+    }  
+}  
+@-webkit-keyframes "warn" {  
+    0% {  
+        -webkit-transform: scale(0);  
+        opacity: 0.0;  
+    }  
+    25% {  
+        -webkit-transform: scale(0);  
+        opacity: 0.1;  
+    }  
+    50% {  
+        -webkit-transform: scale(0.1);  
+        opacity: 0.3;  
+    }  
+    75% {  
+        -webkit-transform: scale(0.5);  
+        opacity: 0.5;  
+    }  
+    100% {  
+        -webkit-transform: scale(1);  
+        opacity: 0.0;  
+    }  
+}  
+.mudle .pro-list{
+	border:1px solid #eee;
+	background:#fff;
+	text-align:center;
+	padding-bottom:30px;
+	margin-bottom:20px;
+}
+.mudle .pro-list p{
+	padding:0 20px;
+	text-align:left;
+}
+.featurette-heading{
+	margin-top:40px;
+}
+.solutebg {
+	background-image: url("banner6.jpg")/*tpa=http://www.taocloudx.com/statics/v1/images/banner6.jpg*/;
+}
+
+.servicebg {
+	background-image: url("banner7.jpg")/*tpa=http://www.taocloudx.com/statics/v1/images/banner7.jpg*/;
+}
+
+.joinusbg {
+	background-image: url("banner8.jpg")/*tpa=http://www.taocloudx.com/statics/v1/images/banner8.jpg*/;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+}
+
+.prod-list {
+	padding-top: 60px;
+}
+
+.prod-list p {
+	color: #aeaeae;
+	font-size: 13px;
+	line-height: 1.8;
+}
+
+.prod-list h2 {
+	color: #676a6c;
+	font-size: 20px;
+	margin-top: 4px
+}
+
+.prod-list small h2 {
+	color: #1e88e4;
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.prod-list .btn {
+	background: #14a8f6;
+	border: 0;
+}
+
+
+.ab {
+	font-size: 16px;
+	color: #3b3b3b;
+	line-height: 1.6;
+}
+.ab p{
+	color:#666;
+	word-break:break-all;
+}
+.ab1 {
+	padding-bottom:20px;
+}
+@media (min-width:1180px){
+	.ab1 {
+		background: url("map.png")/*tpa=http://www.taocloudx.com/statics/v1/images/map.png*/ no-repeat right top;
+	}
+}
+
+.ab2,.ab3 {
+	padding-top: 60px;
+	padding-bottom:30px;
+}
+.ab2{
+	background:#f5f5f5;
+	padding-bottom:60px;
+}
+.ab2 p {
+	margin-top: 20px;
+}
+
+.ab2 label {
+	font-size: 16px;
+	color: #1e88e4;
+}
+.lastp40{
+	padding-bottom:40px;
+}
+.solutehead {
+	text-align: center;
+}
+
+.solutehead .row {
+	margin: auto;
+	margin-top:28px;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+
+.solutehead .col{
+	padding: 12px 0;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	background:#fff;
+	border-bottom:1px solid #ccc;
+}
+
+.solutehead .active {
+	background: #009add;
+	color: #fff;
+}
+
+.fan-list {
+	color: #3b3b3b;
+	padding-bottom:30px;
+}
+
+.fan-list p {
+	padding-left: 28px;
+	color: #555;
+	line-height: 1.8;
+	margin-top: 20px;
+}
+
+.fan-list h1 {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.fan-list h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.joinuslist p {
+	padding-left: 0;
+	margin-top: 10px;
+}
+
+.joinuslist h2 {
+	color: #1e88e4;
+}
+
+.joinuslist h4 {
+	color: #353644;
+	font-weight: bold;
+	margin-top: 30px;
+	line-height:2;
+}
+.online-buy{
+	margin:20px 0;
+}
+.online-buy b{
+	color:#fc6921;
+	font-weight:400;
+	margin-left:20px;
+}
+.online-buy b strong{
+	font-size:32px;
+	font-weight:normal;
+}
+.online-buy h4 a{
+	color:#333;
+}
+.apply{
+	background:#fff;
+	padding:40px;
+	margin:20px auto;
+	width:80%;
+	border-radius:6px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background:#fff;
+}
+.apply-nav{
+	/*height:58px;
+	line-height:58px;
+	margin-bottom:20px;*/
+	margin:11px 0;
+	overflow:hidden;
+}
+.apply-nav a{
+	float:left;
+	display:inline;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+	box-shadow:0 1px 2px #d7d6d6;
+	margin-right:8px;
+	text-shadow:0 1px 1px rgba(0,0,0,0.5);
+	border-radius:2px;
+	transition:all .2s;
+}
+.apply-cont .bg-info,.para-cont .bg-info {
+	padding:15px;
+	font-size:12px;
+	margin-bottom:40px;
+	border-radius:3px;
+	color:#009add;
+}
+a.app1{
+	background:#e6e6e6; 
+	color:#717171;
+	text-shadow:none;
+	box-shadow:none;	
+}
+a.app1:hover,a.active{
+	background:#009add;
+	color:#fff;
+}
+.apply .form-control {
+	margin-bottom:15px;
+}
+.apply .btn-primary,.para-cont .btn-primary{
+	font-size:20px;
+	background:#009add;
+	border-color:#009add;
+	height:54px;
+}
+.para-cont .btn-primary{
+	font-size:14px;
+	height:44px;
+	margin-left:20px;	
+}
+.apply .btn-primary:hover,.para-cont .btn-primary:hover{
+	background:#128ecb;
+}
+.media{
+	font-size:14px;
+	border-top:1px solid #eee;
+	padding-bottom:15px;
+	color:#666;
+	padding-top:20px;
+}
+.media-heading span{
+	color:#999;
+	font-size:12px;
+	margin-left:10px;
+}
+.media-left{
+	padding-right:30px;
+}
+.circle{
+	width:32px;
+	height:32px;
+	border-radius:3px;
+	text-align:center;
+	line-height:1.2;
+	color:#fff;
+	background:#009add;
+	cursor:pointer;
+	margin:5px 5px 0 10px;
+	box-shadow:0 1px 2px #d7d6d6;
+	float:right;
+	display:inline;
+}
+.circle .glyphicon{
+	color:#fff;
+	font-size: 20px;
+    margin-top: 6px;
+}
+.circle-tip{
+	width:32px;
+	height:32px;
+	line-height:32px;
+	float:right;
+	display:inline;
+	margin-top:5px;
+	margin-right:5px;
+	color:#999;
+}
+.media-tip{
+	font-size:14px;
+}
+.apply .btn-primary:hover{
+	background:#128ecb;
+}
+.input-group-addon{
+	cursor:pointer;
+}
+.pay-title{
+	overflow:hidden;
+}
+.payform  span{
+	margin-left:10px;
+	margin-right:20px;
+	color:#999;
+	font-style:italic;
+}
+.payform  .btn-info{
+	background:#f60;
+	border-radius:0;
+	border:0;
+	font-size:16x;
+	padding-left:50px;
+	padding-right:50px;
+}
+.payform  div .btn-info{
+	margin-top:20px;
+}
+.payform  .btn-info:hover{
+	background:#fb7a23;
+}
+.pay-title h2{
+	font-size:25px;
+	font-weight:bold;
+	float:left;
+}
+.pay-title .btn-info{
+	float:left;
+	margin-top:25px;
+	margin-left:20px;
+}
+.price{
+	font-size:14px; 
+	color:#777;
+	display:inline;
+	margin-top:20px;
+}
+.price strong{
+	color:#fc6921;
+	font-size:25px;
+	font-weight:normal;
+	line-height:2;
+	margin-left:6px;
+}
+.price-tip{
+	padding:8px;
+	font-size:12px;
+	background:#f2dede;
+}
+.price-tip .glyphicon-triangle-right{color: #f60;
+    font-size: 24px;
+    left: -5px;
+    position: absolute;
+    top: 19px;}
+@-webkit-keyframes bounce-down {
+
+    25% {
+        -webkit-transform: translateY(-10px);
+    }
+
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+
+    75% {
+        -webkit-transform: translateY(10px);
+    }
+
+}
+
+@keyframes bounce-down {
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50%, 100% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+}
+
+.animate-bounce-down{
+    -webkit-animation: bounce-down 1.5s linear infinite;
+    animation: bounce-down 1.5s linear infinite;
+}
+
+@-webkit-keyframes bounce-up {
+
+    25% {
+        -webkit-transform: translateY(10px);
+    }
+
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+
+    75% {
+        -webkit-transform: translateY(-10px);
+    }
+
+}
+
+ 
+
+@keyframes bounce-up {
+
+    25% {
+        transform: translateY(10px);
+    }
+
+    50%, 100% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+
+}
+
+.animate-bounce-up{
+    background-image: url("arrow_down.png")/*tpa=http://www.taocloudx.com/statics/v1/images/arrow_down.png*/;
+    background-size: cover;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: -50px;
+    position: relative;
+    right: 0;
+    top: 85%;
+    width: 50px;
+	-webkit-animation: 3s ease 0s normal none infinite running bounce;
+	animation: 3s ease 0s normal none infinite running bounce;
+
+}
+/*news*/
+.news-sidebar{
+	background: #fff;
+	position: relative;
+	zoom: 1;
+	border: 1px solid #eaeaea;
+	box-shadow: 0 0 2px #eaeaea;
+	padding: 9px 14px 60px;
+	font-size:14px;
+}
+.news-sidebar h4{
+	height:78px;
+	color:#fff;
+	text-align:center;
+	background:#009add;
+	line-height:78px;
+	font-size:28px;
+	font-weight:bold;
+}
+.news-sidebar li{
+	margin-top:14px;
+}
+.list-unstyled{
+	padding:0 10px;
+	padding-top:5px;
+}
+.news-sidebar .list-unstyled a{
+	color:#666;
+}
+.news-sidebar .list-unstyled a:hover{
+	text-decoration:underline;
+}
+.news-main{
+	font-size:16px;
+	color:#333;
+	line-height:1.8;
+}
+.para-cont{
+	border: 1px solid #eaeaea;
+	box-shadow: 0 0 2px #eaeaea;
+	background:#fff;
+	padding: 9px 38px 50px;
+}
+.news-main .pull-left,.service .pull-left{
+	margin-right:20px
+}
+.news-main .pull-right{margin-left:20px;}
+.new-time {
+	font-size:14px;
+	color:#999;
+	padding-left:10px;
+}
+.new-time em{
+	margin-right:6px;
+}
+.new-time .glyphicon-thumbs-up{
+	font-size:25px;
+	color:#009add;
+	cursor:pointer;
+}
+.new-time .pull-right{
+	margin-left:6px;
+}
+.marquee-box {
+	overflow:hidden;
+	width:100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.marquee {
+	width:8000%;
+	height:86px;
+}
+.wave-list-box {
+	float:left;
+}
+.wave-list-box ul{float:left; height:86px; overflow:hidden; zoom:1; padding:0; }
+.wave-list-box ul li{height:86px; width:100%; float:left; line-height:30px; list-style:none;}
+.wave-box {
+	position: relative;
+	height: 60px;
+	top:-46px;
+}
+.marquee2 {
+	position:absolute;top:0px;left:0px;width:100%;height:68px;overflow:hidden;
+}
+
+.wave-list {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	overflow: hidden;
+}
+.wave-list li {
+	float: left;
+}
